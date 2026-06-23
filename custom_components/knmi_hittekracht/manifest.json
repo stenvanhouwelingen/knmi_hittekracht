@@ -1,0 +1,13 @@
+{
+  "domain": "knmi_hittekracht",
+  "name": "KNMI Hittekracht",
+  "codeowners": ["@stenvanhouwelingen"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/stenvanhouwelingen/knmi_hittekracht",
+  "issue_tracker": "https://github.com/stenvanhouwelingen/knmi_hittekracht/issues",
+  "integration_type": "service",
+  "iot_class": "local_push",
+  "requirements": [],
+  "version": "2026.6.23"
+}

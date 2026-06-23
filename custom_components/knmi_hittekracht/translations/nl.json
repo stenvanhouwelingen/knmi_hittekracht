@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "KNMI Hittekracht",
+        "description": "Configureer de entiteiten die worden gebruikt om de Wet Bulb Globe Temperature (WBGT) en de KNMI Hittekracht Index te berekenen. Temperatuur en Luchtvochtigheid zijn verplicht; Wind en Zonnestraling zijn optioneel.",
+        "data": {
+          "temperature_entity": "Temperatuur entiteit",
+          "humidity_entity": "Relatieve luchtvochtigheid entiteit",
+          "wind_entity": "Windsnelheid entiteit",
+          "solar_entity": "Zonnestraling entiteit",
+          "force_shade": "Forceer schaduw / nachtprofiel"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "KNMI Hittekracht",
+        "description": "Pas de entiteiten of parameters voor de KNMI Hittekracht berekening aan.",
+        "data": {
+          "temperature_entity": "Temperatuur entiteit",
+          "humidity_entity": "Relatieve luchtvochtigheid entiteit",
+          "wind_entity": "Windsnelheid entiteit",
+          "solar_entity": "Zonnestraling entiteit",
+          "force_shade": "Forceer schaduw / nachtprofiel"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "wbgt": {
+        "name": "Hittekracht Geschatte WBGT"
+      },
+      "index": {
+        "name": "Hittekracht Index"
+      }
+    }
+  }
+}

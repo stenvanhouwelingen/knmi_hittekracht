@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "KNMI Hittekracht",
+        "description": "Configure the entities used to calculate the Wet Bulb Globe Temperature (WBGT) and KNMI Hittekracht Index. Temperature and Humidity are required; Wind and Solar are optional.",
+        "data": {
+          "temperature_entity": "Temperature Entity",
+          "humidity_entity": "Relative Humidity Entity",
+          "wind_entity": "Wind Speed Entity",
+          "solar_entity": "Solar Radiation (Irradiance) Entity",
+          "force_shade": "Force Shaded / Night Profile"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "KNMI Hittekracht",
+        "description": "Adjust the entities or parameters for the KNMI Hittekracht calculation.",
+        "data": {
+          "temperature_entity": "Temperature Entity",
+          "humidity_entity": "Relative Humidity Entity",
+          "wind_entity": "Wind Speed Entity",
+          "solar_entity": "Solar Radiation (Irradiance) Entity",
+          "force_shade": "Force Shaded / Night Profile"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "wbgt": {
+        "name": "Hittekracht Estimated WBGT"
+      },
+      "index": {
+        "name": "Hittekracht Index"
+      }
+    }
+  }
+}
